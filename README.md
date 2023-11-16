@@ -81,3 +81,6 @@ functions:
 ```
 
 If everything was set up correctly, all incoming requests to your `someFunction` Lambda will first be authorized. You can find the JWT claims at `event.requestContext.authorizer`.
+
+
+npm i serverless-webpack
